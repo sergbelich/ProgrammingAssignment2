@@ -35,3 +35,19 @@ cacheSolve <- function(x, ...) {
         x$setInverse(m)                                 # Save Matrix Inverse In Cache
         m
 }
+# a<-diag(4,4)
+# a
+#      [,1] [,2] [,3] [,4]
+# [1,]    4    0    0    0
+# [2,]    0    4    0    0
+# [3,]    0    0    4    0
+# [4,]    0    0    0    4
+#
+# Matrix_a <- makeCacheMatrix(a)
+#
+# cacheSolve(Matrix_a)
+#      [,1] [,2] [,3] [,4]
+# [1,] 0.25 0.00 0.00 0.00
+# [2,] 0.00 0.25 0.00 0.00
+# [3,] 0.00 0.00 0.25 0.00
+# [4,] 0.00 0.00 0.00 0.25
